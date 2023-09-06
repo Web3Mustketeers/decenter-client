@@ -185,7 +185,7 @@ def generate_visulizations(loss_metrics, gpu_metrics, bucket_name):
     buf.close()
 
 def upload_file_to_stroage(bucket_name, file_name, file_content):
-    file_service_url = 'http://Decenterfileservice.azurewebsites.net/api/v1/objects'
+    file_service_url = 'http://bahenfileservice.azurewebsites.net/api/v1/objects'
 
     # send the response with to upload the file
     files = {'folder': file_content, 'bucketName':('', bucket_name), 'objectName':('', file_name)}

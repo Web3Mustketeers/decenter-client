@@ -10,7 +10,7 @@
   "sourceMap": "60:635:3:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "60:635:3:-:0;;;;;;;;",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\nlibrary SharedStructs {\r\n    struct TaskInfo {\r\n        uint256 id;\r\n        uint256 orderId;\r\n        TaskType taskType;\r\n        TaskStatus status;\r\n        string folderUrl;\r\n        // wei\r\n        uint256 requiredPower;\r\n        address creator;\r\n        uint256 workerId;\r\n        uint256 expectWorkerId;\r\n        uint256 orderLevel;\r\n    }\r\n\r\n    enum TaskType {\r\n        Training,\r\n        Validation\r\n    }\r\n    enum TaskStatus {\r\n        Created,\r\n        processing,\r\n        Completed\r\n    }\r\n\r\n    enum OrderStatus {\r\n        Created, \r\n        processing,     \r\n        Completed,      \r\n        Failed         \r\n    }\r\n}\r\n",
-  "sourcePath": "C:\\Users\\23861\\Decenter-Client\\src\\smart-contracts\\contracts\\SharedStructs.sol",
+  "sourcePath": "C:\\Users\\23861\\Bahen-Client\\src\\smart-contracts\\contracts\\SharedStructs.sol",
   "ast": {
     "absolutePath": "project:/contracts/SharedStructs.sol",
     "exportedSymbols": {
