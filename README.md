@@ -3,11 +3,11 @@
 
 ![Untitled](./docs/images/flowchart_1.png)
 
-Bahen Network is a decentralized AI training platform with distributed machine learning protocols. We have two key products:
+Decenter is a decentralized AI training platform with distributed machine learning protocols. We have two key products:
 
 1. Marketplace
     
-    Bahen Network provides easy-to-use low-code solutions for non-experts to build advanced AI models, making sophisticated AI development accessible to regular users. The intuitive drag-and-drop interface abstracts away unnecessary programming complications.
+    Decenter provides easy-to-use low-code solutions for non-experts to build advanced AI models, making sophisticated AI development accessible to regular users. The intuitive drag-and-drop interface abstracts away unnecessary programming complications.
     
     For professional developers, we offer flexible SDKs to connect with distributed machine learning protocols, enabling seamless integration and programmatic orchestration of decentralized training pipelines.
     
