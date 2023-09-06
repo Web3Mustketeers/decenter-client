@@ -39,7 +39,7 @@
 S**tep 1**
 
 ```powershell
-git clone https://github.com/Bahen-Network/Bahen-Client.git
+git clone https://github.com/Web3Mustketeers/decenter-client.git
 cd Bahen-Client
 ```
 
