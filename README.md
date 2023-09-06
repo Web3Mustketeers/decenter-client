@@ -60,7 +60,7 @@ There are four key roles in our network:
 
 ### File Service Interacting with Greenfield
 
-Bahen FileService is a Go-based Web 2.0 service integral to the Bahen project. It serves as a dedicated storage solution for user-uploaded training data, pre-trained models, and the models processed by workers. Our service offers an unparalleled combination of efficiency, security, and transparency. Here are the key features of our file service below.
+Decenter FileService is a Go-based Web 2.0 service integral to the Decenter project. It serves as a dedicated storage solution for user-uploaded training data, pre-trained models, and the models processed by workers. Our service offers an unparalleled combination of efficiency, security, and transparency. Here are the key features of our file service below.
 
 1. Integration with Greenfield: seamlessly upload and download files with complete compatibility and integration for BNB Greenfield.
 2. Safety First with AES Encryption: all files processed through our service are secured using state-of-the-art AES encryption, ensuring that the data remains confidential and protected against unwanted access.
@@ -68,7 +68,7 @@ Bahen FileService is a Go-based Web 2.0 service integral to the Bahen project. I
 4. Fully Open Source Processing: to ensure maximum transparency and decentralization, our entire processing workflow is open source. Dive into the code, make improvements, or simply verify the processes – the choice is yours!
 
 Please refer to our Github Repo for more details:
-[Bahen-FilesSerivce](https://github.com/Bahen-Network/Bahen-FileService)
+[Decenter-FilesSerivce](https://github.com/Decenter-Network/Decenter-FileService)
 
 ### Implementation of *Proof of Train*
 
@@ -78,21 +78,21 @@ During the hackathon phase, we have implemented two parts of the Proof of Train:
 2. By randomly selecting a certain number of training data for each saved model parameter and calculating the training loss of the sample data, we can compare it with step 1 to verify the effectiveness of the training.
 
 Read more:
-[proof_of_training](https://github.com/Bahen-Network/Bahen-Client/blob/57af7e8815a2a9162b888d679bce33066f8dd6c4/docs/proof_of_training.pdf)
+[proof_of_training](https://github.com/Decenter-Network/Decenter-Client/blob/57af7e8815a2a9162b888d679bce33066f8dd6c4/docs/proof_of_training.pdf)
 
 ### Implementation of ***Privacy and Safety Modules***
 
 In our project, we have adopted a strategy where clients outsource their training tasks to workers with GPUs. While this approach utilizes computing power and speeds up data processing, it also introduces a new challenge - protecting the privacy of training data and scripts. This article provides a detailed overview of our privacy and security module design, offering comprehensive measures to address these challenges.
 
 Read more:
-[proof_of_training](https://github.com/Bahen-Network/Bahen-Client/blob/57af7e8815a2a9162b888d679bce33066f8dd6c4/docs/safety_and_privacy.pdf)
+[proof_of_training](https://github.com/Decenter-Network/Decenter-Client/blob/57af7e8815a2a9162b888d679bce33066f8dd6c4/docs/safety_and_privacy.pdf)
 
 ### Reseach on *Task Sharding*
 
 In our project, we are trying to iterate the relationship between order, task, and worker. We are attempting to split one order into multiple tasks to be completed by multiple workers in different locations for deep learning computation and synchronization, moving from a one-to-one relationship to a one-to-many relationship. We are currently in the research stage.
 
 Read more:
-[Task Sharding](https://github.com/Bahen-Network/Bahen-Client/blob/57af7e8815a2a9162b888d679bce33066f8dd6c4/docs/task_sharding.pdf)
+[Task Sharding](https://github.com/Decenter-Network/Decenter-Client/blob/57af7e8815a2a9162b888d679bce33066f8dd6c4/docs/task_sharding.pdf)
 
 ## Future Development
 
@@ -100,7 +100,7 @@ Read more:
 
 ### Long-Term Vision
 
-Bahen.ai aim to promote diversified development in the field of artificial intelligence by breaking through computational bottlenecks and enhancing data collaboration, allowing everyone to explore the future of AI on an equal footing.
+Decenter.ai aim to promote diversified development in the field of artificial intelligence by breaking through computational bottlenecks and enhancing data collaboration, allowing everyone to explore the future of AI on an equal footing.
 
 We believe that AGI (Artificial General Intelligence) is not a monopoly or oligopoly, but rather a combination of various types of AI from different fields. The decentralized nature of blockchain will be the cornerstone to achieve these connections.
 

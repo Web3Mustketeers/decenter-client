@@ -14,7 +14,7 @@ import torchvision.transforms as transforms
 from azure.cosmos import CosmosClient, exceptions, PartitionKey
 
 # Set up Azure Logging
-db_url = 'https://bahen.documents.azure.com:443/'
+db_url = 'https://Decenter.documents.azure.com:443/'
 db_key = 'gpbaKRTIW4525ah1WaVZXM2ut5xoc6z9a60YwuEaqVp7P2rAflUmmRgsbnxHCVqvEwhfX8VdwjcgACDbmKqoKg=='
 connection_string = "DefaultEndpointsProtocol=https;AccountName=kejie1;AccountKey=wKggITwQijuI4m+7nNyH9XC1JuYsaY8O3ftrhdgDNXVLKYtgV0mvgdPhN3fw/0slGFUTuGVdnKw9+AStVkOoEw==;EndpointSuffix=core.windows.net"
 
@@ -50,7 +50,7 @@ class LoggingCallback:
         self.create_db_resources(bucket_name)
 
         ## Init the greenfield storage client
-        self.file_service_url = 'http://bahenfileservice.azurewebsites.net/api/v1/objects'
+        self.file_service_url = 'http://Decenterfileservice.azurewebsites.net/api/v1/objects'
         self.bucket_name = bucket_name
 
         ## Initialize DCGM or GPU metrics collection tool here

@@ -17,7 +17,7 @@ def perform_training_task(task):
     subprocess.call(["python", "train.py", "--bucket", bucket_name])
 
 def download_files_by_request(bucket_name):
-    file_service_url = 'http://bahenfileservice.azurewebsites.net/api/v1/objects'
+    file_service_url = 'http://Decenterfileservice.azurewebsites.net/api/v1/objects'
     params = {'bucketName': bucket_name, 'objectName': 'train.py'}
     response = requests.get(file_service_url, params=params)
     response.raise_for_status()

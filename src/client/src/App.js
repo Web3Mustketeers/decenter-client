@@ -117,7 +117,7 @@ function App() {
             borderTop: '2px solid #1F1F1F',
           }}
         >
-          © 2023 All Rights Reserved by Bahen
+          © 2023 All Rights Reserved by Decenter
         </Footer>
       </Layout>
     </ConfigProvider>

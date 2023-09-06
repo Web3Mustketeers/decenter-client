@@ -39,8 +39,8 @@
 S**tep 1**
 
 ```powershell
-git clone https://github.com/Bahen-Network/Bahen-Client.git
-cd Bahen-Client
+git clone https://github.com/Decenter-Network/Decenter-Client.git
+cd Decenter-Client
 ```
 
 S**tep 2: Client**

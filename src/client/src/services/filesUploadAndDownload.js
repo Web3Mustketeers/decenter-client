@@ -16,7 +16,7 @@ export const uploadToGreenField = async (files, container) => {
   formData.append('folder', files[0])
   formData.append('bucketName', bucketName);
   formData.append('objectName', 'train.py');
-  const response = await fetch('http://bahenfileservice.azurewebsites.net/api/v1/objects', {
+  const response = await fetch('http://Decenterfileservice.azurewebsites.net/api/v1/objects', {
       method: 'POST',
       body: formData
   });
@@ -31,7 +31,7 @@ export const downloadFromGreenField = async ( bucketName, progress, setProgress 
   };
   const queryString = new URLSearchParams(params).toString();
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', `http://bahenfileservice.azurewebsites.net/api/v1/buckets/objects?${queryString}`, true);
+  xhr.open('GET', `http://Decenterfileservice.azurewebsites.net/api/v1/buckets/objects?${queryString}`, true);
   xhr.responseType = 'blob';
   xhr.onprogress = (event) => {
     if (event.lengthComputable) {
