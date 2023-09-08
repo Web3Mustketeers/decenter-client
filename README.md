@@ -60,7 +60,7 @@ There are four key roles in our network:
 
 ### File Service Interacting with Greenfield
 
-Bahen FileService is a Go-based Web 2.0 service integral to the Bahen project. It serves as a dedicated storage solution for user-uploaded training data, pre-trained models, and the models processed by workers. Our service offers an unparalleled combination of efficiency, security, and transparency. Here are the key features of our file service below.
+Decenter FileService is a Go-based Web 2.0 service integral to the Decenter project. It serves as a dedicated storage solution for user-uploaded training data, pre-trained models, and the models processed by workers. Our service offers an unparalleled combination of efficiency, security, and transparency. Here are the key features of our file service below.
 
 1. Integration with Greenfield: seamlessly upload and download files with complete compatibility and integration for BNB Greenfield.
 2. Safety First with AES Encryption: all files processed through our service are secured using state-of-the-art AES encryption, ensuring that the data remains confidential and protected against unwanted access.
@@ -68,7 +68,7 @@ Bahen FileService is a Go-based Web 2.0 service integral to the Bahen project. I
 4. Fully Open Source Processing: to ensure maximum transparency and decentralization, our entire processing workflow is open source. Dive into the code, make improvements, or simply verify the processes – the choice is yours!
 
 Please refer to our Github Repo for more details:
-[Bahen-FilesSerivce](https://github.com/Bahen-Network/Bahen-FileService)
+[Decenter-FilesSerivce](https://github.com/Nasfame/bnb-greenfield-service)
 
 ### Implementation of *Proof of Train*
 
@@ -100,7 +100,7 @@ Read more:
 
 ### Long-Term Vision
 
-Bahen.ai aim to promote diversified development in the field of artificial intelligence by breaking through computational bottlenecks and enhancing data collaboration, allowing everyone to explore the future of AI on an equal footing.
+Decenter.ai aim to promote diversified development in the field of artificial intelligence by breaking through computational bottlenecks and enhancing data collaboration, allowing everyone to explore the future of AI on an equal footing.
 
 We believe that AGI (Artificial General Intelligence) is not a monopoly or oligopoly, but rather a combination of various types of AI from different fields. The decentralized nature of blockchain will be the cornerstone to achieve these connections.
 

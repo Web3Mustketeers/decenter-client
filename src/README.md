@@ -40,7 +40,7 @@ S**tep 1**
 
 ```powershell
 git clone https://github.com/Web3Mustketeers/decenter-client.git
-cd Bahen-Client
+cd Decenter-Client
 ```
 
 S**tep 2: Client**
