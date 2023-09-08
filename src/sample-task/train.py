@@ -50,7 +50,7 @@ class LoggingCallback:
         self.create_db_resources(bucket_name)
 
         ## Init the greenfield storage client
-        self.file_service_url = 'http://bahenfileservice.azurewebsites.net/api/v1/objects'
+        self.file_service_url = 'http://bahenfileservice.azurewebsites.net/api/v1/objects' #FIXME: 
         self.bucket_name = bucket_name
 
         ## Initialize DCGM or GPU metrics collection tool here

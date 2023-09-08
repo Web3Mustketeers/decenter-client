@@ -17,8 +17,8 @@ def download_modules(bucket_name):
     sys.path.append(temp_dir)
 
     # Send a request to download files
-    logging.info('Downloading data...')
-    file_service_url = 'http://bahenfileservice.azurewebsites.net/api/v1/objects'
+    logging.info('Downloading data...')  
+    file_service_url = 'http://bahenfileservice.azurewebsites.net/api/v1/objects' #FIXME:
     params = {'bucketName': bucket_name, 'objectName': 'train.py'}
     response = requests.get(file_service_url, params=params)
     response.raise_for_status()
